@@ -1,0 +1,46 @@
+INSTRUCCIONES DE USO — Asistente 26 Ver. 2.2
+=====================================================
+
+Materia: Historia Sociocultural del Arte II
+Código: 26
+Cátedra: Dra. Karina Mauro
+Carrera: Licenciatura en Artes Multimediales — Universidad Nacional de las Artes (UNA)
+
+Qué hace este tutor:
+  Asistente académico por voz. Escuchá una pregunta formulada oralmente,
+  busca la respuesta en la base de conocimientos obligatoria de la materia
+  y devuelve una respuesta calibrada según el formato que exige la cátedra:
+  entre 250 y 300 palabras en prosa continua, con veredicto taxativo
+  VERDADERO o FALSO en la primera línea cuando la consigna es de ese tipo.
+  Registro formal universitario, a la vez cercano y fluido, como una clase
+  magistral dictada de pie frente al aula en la UNA. Pensado para preparar
+  los exámenes parciales y finales y los trabajos prácticos (análisis de
+  la Modernidad, crítica de ópera lírica y exposición multimedia sobre
+  novela del siglo XIX).
+
+Cómo se usa:
+  1. Pegá tu API Key de Gemini en el panel "Configuración" (esquina
+     inferior derecha). También podés fijarla como variable de entorno
+     VITE_GEMINI_API_KEY.
+  2. Tocá "Grabar" y formulá tu pregunta en voz alta. Podés pausar y
+     reanudar para releer; todo se acumula en un único clip.
+  3. Tocá "Enviar". La respuesta aparece escrita y se lee en voz alta
+     automáticamente.
+  4. La respuesta queda en la bitácora de la sesión y se guarda
+     automáticamente como archivo .txt en la carpeta qa-logs/ del
+     repositorio (segundo plano, sin interrumpir).
+
+Atajos:
+  · Botón 3 (Play/Pausa voz): pausar/reanudar la lectura de la
+    respuesta actual.
+
+Avisos:
+  · El tutor fundamenta sus respuestas en HSCA2_FULL.pdf (base de
+    conocimientos de la cátedra) y, para el material audiovisual sin
+    guion disponible, en el conocimiento general de la inteligencia
+    artificial articulado con las unidades teóricas.
+  · Las preguntas formuladas por voz se transcriben antes de enviarse
+    a Gemini (para que queden en el log).
+  · El guardado automático en GitHub requiere un token con permiso
+    de Contents: read+write sobre este repo (configurado como
+    VITE_GITHUB_TOKEN en los Secrets del repo).
